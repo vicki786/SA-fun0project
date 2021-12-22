@@ -15,6 +15,6 @@ sdk_key = "1234567890abcdef"
 feature_flag_key = "my-flag"
 ```
 
-3. Run `python3 hello-world.py`.  You may need to run this command like `sudo python3 hello-world.py`
+3. Run `python3 hello-world.py`.  You may need to run this command like `sudo python3 hello-world.py` if you have no admin permission on the user logged into the server.
 
 You should see the message `"Hello World Feature flag '<flag key>' is <true/false> for this user"`.
