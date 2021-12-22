@@ -1,4 +1,4 @@
-# Copy of LaunchDarkly Sample Python Application 
+# Copy of LaunchDarkly Sample Python Application as mentioned in https://docs.launchdarkly.com/guides/tutorials/sdk-flag
 
 # Make sure, you have Python version 3.5 or higher.
 
