@@ -1,3 +1,4 @@
+###
 # Copy of LaunchDarkly Sample Python Application as mentioned in https://docs.launchdarkly.com/guides/tutorials/sdk-flag
 
 # Make sure, you have Python version 3.5 or higher.
@@ -14,6 +15,6 @@ sdk_key = "1234567890abcdef"
 feature_flag_key = "my-flag"
 ```
 
-3. Run `python hello-world.py`.
+3. Run `python3 hello-world.py`.  You may need to run this command like `sudo python3 hello-world.py`
 
-You should see the message `"Feature flag '<flag key>' is <true/false> for this user"`.
+You should see the message `"Hello World Feature flag '<flag key>' is <true/false> for this user"`.
