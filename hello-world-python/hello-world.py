@@ -35,7 +35,7 @@ if __name__ == "__main__":
 
   flag_value = ldclient.get().variation(feature_flag_key, user, False)
 
-  show_message("Feature flag '%s' is %s for this user" % (feature_flag_key, flag_value))
+  show_message("Hello World Feature flag '%s' is %s for this user" % (feature_flag_key, flag_value))
 
   # Here we ensure that the SDK shuts down cleanly and has a chance to deliver analytics
   # events to LaunchDarkly before the program exits. If analytics events are not delivered,
